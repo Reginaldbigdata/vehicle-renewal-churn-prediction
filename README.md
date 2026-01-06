@@ -1,5 +1,25 @@
 # Vehicle Renewal Churn Analysis & 2026 Prediction
 
+## Repository Structure
+
+vehicle-renewal-churn-prediction/
+│
+├── data/ ← Raw CSV files
+│ ├── 2024_renewals.csv
+│ └── 2025_renewals.csv
+│
+├── notebooks/ ← Jupyter Notebook for data analysis & ML
+│ └── 2026_renewal_prediction.ipynb
+│
+├── outputs/ ← Prediction results
+│ └── 2026_renewal_predictions.csv
+│
+├── sql/ ← SQL queries for churn analysis
+│ └── churn_and_retention_analysis.sql
+│
+├── requirements.txt ← Python dependencies
+└── README.md
+
 ##  Project Overview
 
 This project performs an end-to-end analysis of vehicle renewal data to:
